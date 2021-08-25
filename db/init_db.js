@@ -68,11 +68,11 @@ async function populateCelebrities() {
           "Best know to horror fans as playing the chronic nymphomaniac psychiatrist Ben Harmon in the American Horror Story universe.",
       },
       {
-        name: "Virginia Madsen",
+        name: "Damien Leone",
         imageUrl:
-          "https://www.texasfrightmareweekend.com/wp-content/uploads/2021/07/IG-madsen.png",
-        origin: "Candyman",
-        description: "Best known to horror fans for playing Helen in Candyman.",
+          "https://www.texasfrightmareweekend.com/wp-content/uploads/2019/08/Damien1-e1598392946629.png",
+        origin: "All Hallows Eve, Terrifier, Terrifier 2",
+        description: "The director, writer, and highly skilled Special Effects Makeup artist resposible for the bloodbath know as Terrifer, and soon to come Terrifer 2.",
       },
       {
         name: "C.J. Graham",
