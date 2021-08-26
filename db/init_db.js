@@ -61,7 +61,8 @@ async function populateCelebrities() {
       },
       {
         name: "Dylan McDermott",
-        imageUrl: "https://www.texasfrightmareweekend.com/wp-content/uploads/2021/08/Dylan-McDermott.jpg",
+        imageUrl:
+          "https://www.texasfrightmareweekend.com/wp-content/uploads/2021/08/Dylan-McDermott.jpg",
         origin:
           "American Horror Story: Murder House, American Horror Story: Asylum, American Horror Story: Apocalypse, American Horror Story: 1984, American Horror Stories",
         description:
@@ -72,7 +73,8 @@ async function populateCelebrities() {
         imageUrl:
           "https://www.texasfrightmareweekend.com/wp-content/uploads/2019/08/Damien1-e1598392946629.png",
         origin: "All Hallows Eve, Terrifier, Terrifier 2",
-        description: "The director, writer, and highly skilled Special Effects Makeup artist resposible for the bloodbath know as Terrifer, and soon to come Terrifer 2.",
+        description:
+          "The director, writer, and highly skilled Special Effects Makeup artist resposible for the bloodbath know as Terrifer, and soon to come Terrifer 2.",
       },
       {
         name: "C.J. Graham",
@@ -181,7 +183,7 @@ async function populateCelebrities() {
         origin: "Jeepers Creepers 1, 2, and 3",
         description:
           "Jonathan Breck is famous for starring as the creeper himself in all of the Jeepers Creepers movies.",
-      },
+      }
     ];
 
     const celebrities = await Promise.all(
