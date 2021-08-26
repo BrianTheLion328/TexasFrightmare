@@ -12,6 +12,13 @@
     background-color: rgb(0, 0, 0);
     color: rgb(0, 255, 157);
 }
+.texasLogo{
+    width: 148px;
+    height: 70px;
+    margin: 5px;
+    display: flex;
+    align-self: center;
+}
 .App{
     background-color:rgb(84, 88, 126);
 }
