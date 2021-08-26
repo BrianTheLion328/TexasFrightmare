@@ -4,7 +4,7 @@ import "./Style.css";
 export default function Welcome() {
   return (
     <div className="welcomePage">
-      <h1 className="welcomeHeader">Texas Frightmare Checklist!</h1>
+      <h1 className="welcomeHeader">Texas Frightmare Checklist</h1>
 
       <div id="list">
         <ul className="listOne">
