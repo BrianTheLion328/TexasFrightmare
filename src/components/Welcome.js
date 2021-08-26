@@ -4,7 +4,7 @@ import "./Style.css";
 export default function Welcome() {
   return (
     <div className="welcomePage">
-        <img id="homeImage" src="https://www.texasfrightmareweekend.com/wp-content/uploads/2021/07/2021-Header-New4.png"></img>
+        <img id="homeImage" alt="graphic" src="https://www.texasfrightmareweekend.com/wp-content/uploads/2021/07/2021-Header-New4.png"></img>
       <h1 className="welcomeHeader">Texas Frightmare Checklist</h1>
 
       <div id="list">
