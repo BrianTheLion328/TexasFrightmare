@@ -13,10 +13,10 @@
     color: rgb(0, 255, 157);
 }
 .App{
-    background-color:rgb(197, 201, 250);
+    background-color:rgb(84, 88, 126);
 }
 #body {
-    margin-bottom: 75px;
+    margin-bottom: 77px;
     margin-top: 25px;
     margin-left: 15px;
 }
@@ -92,18 +92,25 @@
     background-color: white;
 }
 #footer{
-    font-size: 22px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(0, 255, 157);
-    padding: 2px;
-    display: flex;
-    justify-content: center;
     position: fixed;
     bottom: 0;
     width: 100%;
     box-shadow: 5px 5px 5px black;
     margin: 4px;
     border: 1px solid black;
+}
+.disclaimer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    text-align: center;
+}
+.disOne{
+    font-size: 16px;
 }
 /* welcome page */
 .welcomePage{
@@ -112,7 +119,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color:rgb(197, 201, 250);
+    background-color:rgb(84, 88, 126);
     font-family: serif;
 }
 .welcomeHeader{
@@ -121,11 +128,11 @@
     font-size: 40px;
     text-shadow: 1px 1px 1px grey;
     border: 1px solid black;
-    padding: 20px;
+    padding: 10px;
     background-color:rgb(160, 51, 250);
     width: 900px;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 50px;
 
 }
 .welcomeMessage{
@@ -134,7 +141,7 @@
     margin-top: 30px;
     font-size: 18px;
     border: 1px solid black;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 24px;
     background-color: rgb(252, 228, 175);
     box-shadow: 8px 8px 8px grey;
@@ -146,12 +153,12 @@
     display: flex;
     padding: 8px;
     line-height: 38px;
-    border: 1px solid black;
-    border-radius: 12px;
-    background-color: rgb(236, 179, 54);
+    border: 5px ridge black;
+    /* border-radius: 6px; */
+    background-color: rgb(255, 255, 255);
     font-family: serif;
-    box-shadow: 10px 10px 10px grey;
-    text-shadow: 2px 2px 2px silver;
+    box-shadow: 5px 5px 14px black;
+    /* text-shadow: 1px 1px 1px rgb(53, 164, 248); */
 }
 .listOne{
     margin-right: 33px;
@@ -162,4 +169,8 @@
 }
 .note{
     font-size: 15px;
+    color: white;
+}
+#homeImage {
+    width: 100%;
 }
