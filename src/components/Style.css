@@ -40,7 +40,7 @@
     background-color:rgba(76, 132, 238, 0.981);
     box-shadow: 5px 5px 5px black;
 }
-.celebButton:hover{
+.celebButton:hover {
     background-color: rgb(0, 255, 157);
 }
 #celebImage {
@@ -131,16 +131,16 @@
 }
 .welcomeHeader{
     /* text-decoration: underline; */
-    letter-spacing: 2px;
-    font-size: 40px;
-    text-shadow: 1px 1px 1px grey;
+    letter-spacing: 4px;
+    font-size: 44px;
+    text-shadow: 3px 3px 3px lightblue;
     border: 1px solid black;
     padding: 10px;
-    background-color:rgb(250, 97, 51);
-    width: 900px;
+    background-color: rgba(76, 132, 238, 0.981);
+    width: 100%;
     text-align: center;
     border-radius: 50px;
-
+    font-family: Cinzel, serif;
 }
 .welcomeMessage{
     line-height: 35px;
@@ -150,7 +150,7 @@
     border: 1px solid black;
     border-radius: 10px;
     padding: 24px;
-    background-color: rgb(252, 228, 175);
+    background-color: rgb(206, 245, 248);
     box-shadow: 8px 8px 8px grey;
     font-family: serif;
 
@@ -162,10 +162,13 @@
     line-height: 38px;
     border: 5px ridge black;
     /* border-radius: 6px; */
-    background-color: rgb(255, 255, 255);
-    font-family: serif;
+    background-color: rgb(250, 213, 173);
+    font-family: Cinzel, serif;
     box-shadow: 5px 5px 14px black;
     /* text-shadow: 1px 1px 1px rgb(53, 164, 248); */
+}
+.bold{
+    text-shadow: 3px 3px 10px black;
 }
 .listOne{
     margin-right: 33px;

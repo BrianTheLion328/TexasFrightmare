@@ -10,10 +10,10 @@ export default function Welcome() {
       <div id="list">
         <ul className="listOne">
           <li>
-            <strong>Kane Hodder</strong>
+            <strong className="bold">Kane Hodder</strong>
           </li>
           <li>
-            <strong>Tony Todd</strong>
+            <strong className="bold">Tony Todd</strong>
           </li>
           <li>Malcolm McDowell</li>
           <li>Dylan McDermott</li>
@@ -23,7 +23,7 @@ export default function Welcome() {
         <ul className="listTwo">
           <li>Ken Foree</li>
           <li>
-            <strong>David Howard Thornton</strong>
+            <strong className="bold">David Howard Thornton</strong>
           </li>
           <li>Lar Park Lincoln</li>
           <li>R.A. Mihailoff</li>
@@ -41,7 +41,7 @@ export default function Welcome() {
       </div>
       <div>
         <p className="note">
-          * the celebrity names in <strong>BOLD</strong> are the ones who I have
+          * the celebrity names that are <strong>SHADOWED</strong> are the ones who I have
           already booked professional photo-ops with! The rest are first-come,
           first-served!{" "}
         </p>
