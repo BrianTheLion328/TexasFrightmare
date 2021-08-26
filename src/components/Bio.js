@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react'
-import { getCelebrities, getOneCelebrity } from "../api/index";
+import React, { useEffect } from 'react'
+import { getOneCelebrity } from "../api/index";
 import { useLocation } from 'react-router-dom';
 import "./Style.css";
 
@@ -17,7 +17,7 @@ useEffect(() => {
         setOneCeleb([oneCeleb])
     })
     .catch(console.error)
-}, [])
+}, [celebName, setOneCeleb])
 
 console.log("FIRST :", oneCeleb)
 

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Navbar from "./Navbar";
 import Body from "./Body";
 import Footer from "./Footer";
@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   const [celebrities, setCelebrities] = useState([]);
-  const [celeb, setCeleb] = useState([]);
+  // const [celeb, setCeleb] = useState([]);
   const [oneCeleb, setOneCeleb] = useState([]);
 
   return (
