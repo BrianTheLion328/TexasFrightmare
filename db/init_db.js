@@ -1,6 +1,6 @@
 const client = require("./client");
 
-const { createCelebrities, getAllCelebrities } = require("./index");
+const { createCelebrities } = require("./index");
 
 async function buildTables() {
   try {
