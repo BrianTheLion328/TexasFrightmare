@@ -4,12 +4,16 @@ import "./Style.css";
 export default function Welcome() {
   return (
     <div className="welcomePage">
-      <h1 className="welcomeHeader">Horror Convention Checklist!</h1>
+      <h1 className="welcomeHeader">Texas Frightmare Checklist!</h1>
 
       <div id="list">
         <ul className="listOne">
-          <li><strong>Kane Hodder</strong></li>
-          <li>Tony Todd</li>
+          <li>
+            <strong>Kane Hodder</strong>
+          </li>
+          <li>
+            <strong>Tony Todd</strong>
+          </li>
           <li>Malcolm McDowell</li>
           <li>Dylan McDermott</li>
           <li>Damien Leone</li>
@@ -17,7 +21,9 @@ export default function Welcome() {
         </ul>
         <ul className="listTwo">
           <li>Ken Foree</li>
-          <li>David Howard Thornton</li>
+          <li>
+            <strong>David Howard Thornton</strong>
+          </li>
           <li>Lar Park Lincoln</li>
           <li>R.A. Mihailoff</li>
           <li>Tom Savini</li>
@@ -32,6 +38,13 @@ export default function Welcome() {
           <li>Jonathan Breck</li>
         </ul>
       </div>
+      <div>
+        <p className="note">
+          * the celebrity names in <strong>BOLD</strong> are the ones who I have
+          already booked professional photo-ops with! The rest are first-come,
+          first-served!{" "}
+        </p>
+      </div>
       <p className="welcomeMessage">
         Welcome to my horror checklist website. I created this page for 2
         reasons:
@@ -39,10 +52,9 @@ export default function Welcome() {
         <br></br>
         1- To sharpen my skills with fullstack web development and to better
         understand the relationship between the back-end and front-end of any
-        website. Throughout my 6 month bootcamp at Fullstack Academy, I felt
-        like I did not fully grasp the React lessons, so this website is created
-        using only React for everything front-end. Sometimes the best way to
-        learn is to just do it yourself and learn as you go along.
+        website. Throughout my coding bootcamp, I felt like I did not fully
+        grasp the React lessons, so this website is created using only React for
+        everything front-end.
         <br></br>
         <br></br>
         2- Every year in the city of Dallas, Texas, there is a major horror
@@ -50,7 +62,8 @@ export default function Welcome() {
         horror films and TV shows meet fans, sign autographs, hold Q&A's, and
         take photos with fans dressed up as their horror characters! I am going
         this year with a mission to meet everyone on my personal checklist here.
-        Above is the list of names, but the "Celebrities" button on the top left will take you to each person's information, filmography, and picture.
+        Above is the list of names, but the "Celebrities" button on the top left
+        will take you to each person's information, filmography, and picture.
       </p>
     </div>
   );

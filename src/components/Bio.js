@@ -30,7 +30,7 @@ console.log("FIRST :", oneCeleb)
                         <div className="celebCardName">{celeb.celebrity.name}</div>
                         <img className="bioImage" src={celeb.celebrity.imageurl} alt="celebrity"/>
                         <div className="celebOrigin"><strong>Films and TV shows: </strong>{celeb.celebrity.origin}</div>
-                        <div className="celebDescription">{celeb.celebrity.description}</div>
+                        <div className="celebDescription"><strong>Summary: </strong>{celeb.celebrity.description}</div>
                     </div>
                 )
             })}
