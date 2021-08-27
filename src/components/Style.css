@@ -19,6 +19,10 @@
     display: flex;
     align-self: center;
 }
+#facePic{
+    height: 100px;
+    width: 100px;
+}
 .App{
     background-color:rgb(84, 88, 126);
 }
