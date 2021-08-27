@@ -29,7 +29,7 @@ console.log("FIRST :", oneCeleb)
                     <div id="celebCard" key={index}>
                         <div className="celebCardName">{celeb.celebrity.name}</div>
                         <img className="bioImage" src={celeb.celebrity.imageurl} alt="celebrity"/>
-                        <div className="celebOrigin"><strong>Films and TV shows: </strong>{celeb.celebrity.origin}</div>
+                        <div className="celebOrigin"><strong>Film and TV: </strong>{celeb.celebrity.origin}</div>
                         <div className="celebDescription"><strong>Summary: </strong>{celeb.celebrity.description}</div>
                     </div>
                 )

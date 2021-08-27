@@ -41,8 +41,7 @@ export default function Welcome() {
       </div>
       <div>
         <p className="note">
-          * the celebrity names that are <strong>SHADOWED</strong> are the ones who I have
-          already booked professional photo-ops with! The rest are first-come,
+          * The names that are <strong>SHADOWED</strong> are the ones who I have reserved a professional photo-op with. The rest are first-come,
           first-served!{" "}
         </p>
       </div>
@@ -58,13 +57,13 @@ export default function Welcome() {
         everything front-end.
         <br></br>
         <br></br>
-        2- Every year in the city of Dallas, Texas, there is a major horror
+        2- Every year in the city of Dallas, Texas there is a major horror
         convention called Texas Frightmare where dozens of celebrities from
-        horror films and TV shows meet fans, sign autographs, hold Q&A's, and
-        take photos with fans dressed up as their horror characters! I am going
+        horror films and TV shows sign autographs, hold Q&A's, and
+        take photos with fans dressed up as their horror characters. I am going
         this year with a mission to meet everyone on my personal checklist here.
-        Above is the list of names, but the "Celebrities" button on the top left
-        will take you to each person's information, filmography, and picture.
+        The "Celebrities" button on the top left
+        will take you to each person's individual information.
       </p>
     </div>
   );
