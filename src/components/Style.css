@@ -117,11 +117,11 @@
     text-align: center;
 }
 .disOne{
-    font-size: 16px;
+    font-size: 17px;
 }
 /* welcome page */
 .welcomePage{
-    margin: 10px;
+    margin: 9px;
     padding: 5px;
     display: flex;
     flex-direction: column;
