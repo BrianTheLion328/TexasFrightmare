@@ -19,12 +19,12 @@ useEffect(() => {
     .catch(console.error)
 }, [celebName, setOneCeleb])
 
-console.log("FIRST :", oneCeleb)
+console.log("First :", oneCeleb)
 
     return (
         <div>
             {oneCeleb.map((celeb, index) => {
-                console.log("SECOND :", celeb)
+                console.log("Second :", celeb)
                 return (
                     <div id="celebCard" key={index}>
                         <div className="celebCardName">{celeb.celebrity.name}</div>
