@@ -19,9 +19,11 @@
     display: flex;
     align-self: center;
 }
-#facePic{
-    height: 100px;
-    width: 100px;
+#initials{
+    font-size: 30px;
+    align-self: center;
+    color:rgb(0, 255, 157);
+    letter-spacing: 1px;
 }
 .App{
     background-color:rgb(84, 88, 126);
@@ -33,7 +35,7 @@
 }
 .navbar {
     width: 100%;
-    background-color: rgb(60, 60, 60);
+    background-color: rgb(36, 32, 32);
     display: flex;
     justify-content: space-around;
 }
@@ -137,14 +139,15 @@
     /* text-decoration: underline; */
     letter-spacing: 4px;
     font-size: 44px;
-    text-shadow: 3px 3px 3px lightblue;
+    text-shadow: 1px 1px 12px rgb(255, 119, 0);
     border: 1px solid black;
     padding: 10px;
-    background-color: rgba(76, 132, 238, 0.981);
+    background-color: rgba(0, 0, 0, 0.981);
     width: 100%;
     text-align: center;
     border-radius: 50px;
     font-family: Cinzel, serif;
+    color: orange;
 }
 .welcomeMessage{
     line-height: 35px;

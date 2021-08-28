@@ -12,6 +12,7 @@ export default function Navbar() {
             <Link to="/">
                 <button className="navButton">Home</button>
             </Link>
+            <h1 id="initials">B.M.</h1>
         </div>
     )
 }
