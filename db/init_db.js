@@ -38,9 +38,9 @@ async function populateCelebrities() {
         name: "Kane Hodder",
         imageUrl:
           "https://www.texasfrightmareweekend.com/wp-content/uploads/2019/08/Kane-Hodder1-e1598392804344.png",
-        origin: "Friday the 13th part 7, 8, 9, Jason X",
+        origin: "Friday the 13th part 7, 8, 9, Jason X, Hatchet franchise",
         description:
-          "Kane Hodder is best known for playing the iconic Jason Voorhees in the Friday the 13th franchise. Meeting him will check a box off my bucket list!",
+          "Kane Hodder is best known for playing the iconic Jason Voorhees in the Friday the 13th franchise. He also plays the killer Victor Crowley in the Hatchet movies. Meeting him will check a box off my bucket list!",
       },
       {
         name: "Tony Todd",
