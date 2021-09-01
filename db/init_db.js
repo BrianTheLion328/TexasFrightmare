@@ -135,13 +135,13 @@ async function populateCelebrities() {
           "Nancy Loomis is best known as Annie in John Carpenter's Halloween.",
       },
       {
-        name: "Freddie Prinze Jr.",
+        name: "Miguel Nunez Jr.",
         imageUrl:
-          "https://www.texasfrightmareweekend.com/wp-content/uploads/2021/08/Freddie-Prinze-Jr-Small-1.png",
+        "https://www.texasfrightmareweekend.com/wp-content/uploads/2021/08/Miguel-A-Nunez-Jr.png",
         origin:
-          "I Know What You Did Last Summer, I Still Know What You Did Last Summer, Scooby Doo franchise",
+        "The Return of the Living Dead, Friday the 13th: part 5 - A New Beginning",
         description:
-          "Freddie Prinze Jr. is best know to horror fans for starring as the hearthrob opposite Jennifer Love Hewitt in the I Know What You Did Last Summer movies.",
+        "Miguel Nunez is best know in the horror universe as Spider from the cult classic zombie film (and my top 2 fav films of all time!) The Return of the Living Dead, and for eating too many enchiladas in Friday the 13th part 5.",
       },
       {
         name: "Harvey Guillen",

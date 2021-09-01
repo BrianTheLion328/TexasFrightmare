@@ -31,7 +31,7 @@ export default function Welcome() {
           <li>Nancy Loomis</li>
         </ul>
         <ul className="listThree">
-          <li>Freddie Prinze Jr.</li>
+          <li>Miguel Nunez Jr.</li>
           <li>Harvey Guillen</li>
           <li>Danny Trejo</li>
           <li>Ed Neal</li>
