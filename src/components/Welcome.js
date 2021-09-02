@@ -50,7 +50,7 @@ export default function Welcome() {
         reasons:
         <br></br>
         <br></br>
-        1- To sharpen my skills with fullstack web development and to better
+        1- To sharpen my skills with full-stack (PERN) web development and to better
         understand the relationship between the back-end and front-end of any
         website. Throughout my coding bootcamp, I felt like I did not fully
         grasp the React lessons, so this website is created using only React for
