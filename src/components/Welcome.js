@@ -26,7 +26,7 @@ export default function Welcome() {
             <strong className="bold">David Howard Thornton</strong>
           </li>
           <li>Lar Park Lincoln</li>
-          <li>R.A. Mihailoff</li>
+          <li> <strong className="bold">R.A. Mihailoff</strong></li>
           <li>Tom Savini</li>
           <li>Nancy Loomis</li>
         </ul>
