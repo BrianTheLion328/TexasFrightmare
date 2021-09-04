@@ -7,7 +7,7 @@ export default function Bio(props) {
 const location = useLocation();
 const path = location.pathname;
 const celebName = path.slice(13);
-console.log(celebName);
+console.log("CELEB NAME: ", celebName);
 
 const {oneCeleb, setOneCeleb} = props;
 
