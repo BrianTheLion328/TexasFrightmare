@@ -8,7 +8,7 @@ export default function Footer() {
         {" "}
         * All images and graphics are borrowed from the Texas
         Frightmare website and are being used for educational and leisure
-        purposes only. Texas Frightmare owns everything. I own nothing. *
+        purposes only. <strong>Texas Frightmare owns everything. I own nothing. </strong>
       </p>
     </div>
   );

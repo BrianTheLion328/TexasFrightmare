@@ -8,7 +8,7 @@ const location = useLocation();
 const path = location.pathname;
 const celebName = path.slice(13);
 console.log("CELEB NAME: ", celebName);
-console.log("Location :", location)
+console.log("Location: ", location)
 
 const {oneCeleb, setOneCeleb} = props;
 
