@@ -27,7 +27,7 @@
     "server:dev": "nodemon index.js",
     "db:build": "node ./db/init_db",
     "start": "node index.js",
-    "postinstall": "npm run build"
+    "postinstall": "npm run db:build && npm run build"
   },
   "eslintConfig": {
     "extends": [
