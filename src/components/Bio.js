@@ -32,6 +32,9 @@ console.log("First :", oneCeleb)
                         <img className="bioImage" src={celeb.celebrity.imageurl} alt="celebrity"/>
                         <div className="celebOrigin"><strong>Film and TV: </strong>{celeb.celebrity.origin}</div>
                         <div className="celebDescription"><strong>Summary: </strong>{celeb.celebrity.description}</div>
+                        <div className="photoOp">
+                            IMAGE COMING SOON!<img/>
+                        </div>
                     </div>
                 )
             })}
