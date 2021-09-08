@@ -173,7 +173,7 @@
 #list{
     font-size: 22px;
     display: flex;
-    padding: 15px 50px;
+    padding: 22px 40px;
     margin: 10px;
     line-height: 38px;
     border: 5px ridge black;
@@ -192,6 +192,11 @@
 .listThree{
     margin-left: 33px;
     margin-right: 20px;
+}
+.listOne,
+.listTwo,
+.listThree{
+    list-style-type: none;
 }
 .note{
     font-size: 15px;
