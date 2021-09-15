@@ -19,6 +19,7 @@ export default function Welcome() {
           <li>Dylan McDermott</li>
           <li>Damien Leone</li>
           <li>C.J. Graham</li>
+          <li>Dee Wallace</li>
         </ul>
         <ul className="listTwo">
           <li>Ken Foree</li>
@@ -29,6 +30,7 @@ export default function Welcome() {
           <li> <strong className="bold">R.A. Mihailoff</strong></li>
           <li>Tom Savini</li>
           <li>Nancy Loomis</li>
+          <li>John Philbin</li>
         </ul>
         <ul className="listThree">
           <li>Miguel Nunez Jr.</li>
@@ -37,6 +39,7 @@ export default function Welcome() {
           <li>Ed Neal</li>
           <li>Charles Cyphers</li>
           <li>Jonathan Breck</li>
+          
         </ul>
       </div>
       <div>
