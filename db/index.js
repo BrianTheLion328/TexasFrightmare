@@ -1,12 +1,12 @@
 const client = require('./client');
 
-async function createCelebrities({name, imageUrl, origin, description}) {
+async function createCelebrities({name, imageUrl, origin, description, photo}) {
     try {
         const { rows } = await client.query(`
-        INSERT INTO celebrities(name, imageUrl, origin, description)
-        VALUES($1, $2, $3, $4)
+        INSERT INTO celebrities(name, imageUrl, origin, description, photo)
+        VALUES($1, $2, $3, $4, $5)
         RETURNING *
-        `, [name, imageUrl, origin, description]
+        `, [name, imageUrl, origin, description, photo]
         );
 
         return rows;

@@ -33,7 +33,7 @@ console.log("First :", oneCeleb)
                         <div className="celebOrigin"><strong>Film and TV: </strong>{celeb.celebrity.origin}</div>
                         <div className="celebDescription"><strong>Summary: </strong>{celeb.celebrity.description}</div>
                         <div className="photoOp">
-                            IMAGE COMING SOON!<img/>
+                            <img className="celebPhotoOp" src={celeb.celebrity.photo} alt="Me With Celebrity" />
                         </div>
                     </div>
                 )
