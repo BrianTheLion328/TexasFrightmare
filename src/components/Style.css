@@ -210,7 +210,13 @@
 .photoOp{
     margin-bottom: 140px;
 }
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 500px) {
+    * {
+        width: 100%;
+        margin: auto;
+        padding: auto;
+    }
+
    img.celebPhotoOp,
    .bioImage,
    .celebOrigin,
@@ -222,6 +228,5 @@
    #footer {
        width: 100%
    }
-
 
 }
