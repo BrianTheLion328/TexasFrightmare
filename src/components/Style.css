@@ -210,3 +210,18 @@
 .photoOp{
     margin-bottom: 140px;
 }
+@media only screen and (max-width: 720px) {
+   img.celebPhotoOp,
+   .bioImage,
+   .celebOrigin,
+   .celebDescription,
+   .celebCardName {
+       width: 100%;
+       height: 100%;
+   }
+   #footer {
+       width: 100%
+   }
+
+
+}
