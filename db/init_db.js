@@ -224,7 +224,9 @@ async function populateCelebrities() {
     );
 
     console.log("Celebrities Created: ", celebrities);
-  } catch (error) {}
+  } catch (error) {
+    console.log(error)
+  }
 }
 
 buildTables()
