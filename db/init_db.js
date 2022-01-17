@@ -173,7 +173,7 @@ async function populateCelebrities() {
         origin:
           "Machete, Machete Kills, Anaconda, Desperado, From Dusk Till Dawn, Predators, American Horror Stories, The Devil's Rejects, Rob Zombie's Halloween, Grindhouse",
         description:
-          "Danny Trejo is Hollywod royalty, having starred in way too many films to count, and being best know for his role in Machete.",
+          "Danny Trejo is Hollywood royalty, having starred in way too many films to count, and being best know for his role in Machete.",
           photo: "https://live.staticflickr.com/65535/51476738418_84f8fa6563_b.jpg"
       },
       {
